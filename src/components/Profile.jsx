@@ -7,7 +7,8 @@ const Profile = (props) => {
     <div>
         <h1>{props.title}</h1>
         <h2>{props.name}</h2>
-        <img src={props.src} alt="" />
+
+        <img src={props.src} alt={props.name} height={props.height} width={props.width} classname={props.className}/>
         <h2>{props.professionTitle}{props.profession}</h2>
         <h2>{props.NumOfAwards}</h2>
         <h2>{props.awardsTitle} {props.awards}</h2>
