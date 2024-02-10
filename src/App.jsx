@@ -53,14 +53,14 @@ export default function Gallery(props) {
           </li>
         </ul>
       </section> */}
+      <Profile title="Notable Scientists"/>
       <Profile
-        title="Notable Scientists"
-        name="Maria Skłodowska-Curie"
         className="avatar"
         src={getImageUrl("szV5sdG", "b")}
         alt="Maria Skłodowska-Curie"
         width={470}
         height={470}
+        name="Maria Skłodowska-Curie"
         professionTitle={<b>Profession: </b>}
         profession="physicist and chemist"
         numOfAwards="4"
@@ -71,13 +71,12 @@ export default function Gallery(props) {
       />
 
       <Profile
-        title="Notable Scientists"
         className="avatar"
-        name="Katsuko Saruhashi"
         src={getImageUrl("YfeOqp2", "b")}
         alt="Katsuko Saruhashi"
         width={470}
         height={470}
+        name="Katsuko Saruhashi"
         professionTitle={<b>Profession: </b>}
         profession="geochemist"
         numOfAwards="2"
