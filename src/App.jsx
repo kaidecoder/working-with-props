@@ -56,7 +56,7 @@ export default function Gallery(props) {
       <Profile
         title="Notable Scientists"
         name="Maria Skłodowska-Curie"
-        src={getImageUrl("szV5sdG")}
+        src={getImageUrl("szV5sdG", "b")}
         professionTitle={<b>Profession: </b>}
         profession="physicist and chemist"
         numOfAwards="4"
@@ -69,7 +69,7 @@ export default function Gallery(props) {
       <Profile
         title="Notable Scientists"
         name="Katsuko Saruhashi"
-        src={getImageUrl("YfeOqp2")}
+        src={getImageUrl("YfeOqp2", "b")}
         professionTitle={<b>Profession: </b>}
         profession="geochemist"
         numOfAwards="2"
